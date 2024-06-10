@@ -27,7 +27,7 @@
 
 1. Клонируйте репозиторий:
     ```bash
-    git clone https://github.com/your-username/test-app.git
+    git clone https://github.com/TsiNik2508/test-app.git
     ```
 2. Перейдите в директорию проекта:
     ```bash
