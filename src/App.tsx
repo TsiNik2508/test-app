@@ -9,10 +9,10 @@ const App: React.FC = () => {
   return (
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <Router>
+        <Router basename="/test-app">
           <Routes>
-            <Route path="/" element={<Navigate to="/test" />} />
             <Route path="/test" element={<TestPage />} />
+            <Route path="*" element={<Navigate to="/test" replace />} />
           </Routes>
         </Router>
       </PersistGate>
