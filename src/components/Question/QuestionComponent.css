@@ -1,0 +1,18 @@
+.question {
+  margin-bottom: 20px;
+}
+
+.question__text {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.question__option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.question__option .MuiFormControlLabel-label {
+  margin-left: 8px;
+}

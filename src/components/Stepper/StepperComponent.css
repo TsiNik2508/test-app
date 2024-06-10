@@ -1,0 +1,16 @@
+.stepper {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 24px;
+}
+
+.stepper__step {
+  width: 20px;
+  height: 20px;
+  background-color: #e0e0e0;
+  transition: background-color 0.3s;
+}
+
+.stepper__step--active {
+  background-color: #1976d2; 
+}

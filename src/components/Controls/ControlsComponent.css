@@ -1,0 +1,9 @@
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.controls__button {
+  min-width: 150px;
+}

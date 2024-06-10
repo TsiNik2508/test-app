@@ -1,0 +1,15 @@
+.timer {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.timer__text {
+  font-size: 18px;
+  color: #4caf50; /* Green color for normal time */
+  transition: color 0.5s;
+}
+
+.timer__text--low {
+  color: #f44336; /* Red color for low time */
+}

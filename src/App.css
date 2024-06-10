@@ -1,0 +1,19 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.MuiButton-root {
+  margin: 8px;
+}
+
+.MuiStepper-root {
+  padding: 24px 0;
+}
+
+.MuiTypography-h5 {
+  font-weight: bold;
+}
+
+.MuiTypography-h6 {
+  margin-bottom: 16px;
+}
